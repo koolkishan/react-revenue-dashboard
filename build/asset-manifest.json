@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-revenue-dashboard/static/css/main.dd97966d.chunk.css",
+    "main.js": "/react-revenue-dashboard/static/js/main.929bf717.chunk.js",
+    "main.js.map": "/react-revenue-dashboard/static/js/main.929bf717.chunk.js.map",
+    "runtime-main.js": "/react-revenue-dashboard/static/js/runtime-main.000e4892.js",
+    "runtime-main.js.map": "/react-revenue-dashboard/static/js/runtime-main.000e4892.js.map",
+    "static/js/2.386e0354.chunk.js": "/react-revenue-dashboard/static/js/2.386e0354.chunk.js",
+    "static/js/2.386e0354.chunk.js.map": "/react-revenue-dashboard/static/js/2.386e0354.chunk.js.map",
+    "index.html": "/react-revenue-dashboard/index.html",
+    "static/css/main.dd97966d.chunk.css.map": "/react-revenue-dashboard/static/css/main.dd97966d.chunk.css.map",
+    "static/js/2.386e0354.chunk.js.LICENSE.txt": "/react-revenue-dashboard/static/js/2.386e0354.chunk.js.LICENSE.txt",
+    "static/media/avatarImage.d37df039.jpeg": "/react-revenue-dashboard/static/media/avatarImage.d37df039.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.000e4892.js",
+    "static/js/2.386e0354.chunk.js",
+    "static/css/main.dd97966d.chunk.css",
+    "static/js/main.929bf717.chunk.js"
+  ]
+}
