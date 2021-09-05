@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-revenue-dashboard/static/css/main.dd97966d.chunk.css",
-    "main.js": "/react-revenue-dashboard/static/js/main.e8578e3e.chunk.js",
-    "main.js.map": "/react-revenue-dashboard/static/js/main.e8578e3e.chunk.js.map",
+    "main.js": "/react-revenue-dashboard/static/js/main.b8c06346.chunk.js",
+    "main.js.map": "/react-revenue-dashboard/static/js/main.b8c06346.chunk.js.map",
     "runtime-main.js": "/react-revenue-dashboard/static/js/runtime-main.000e4892.js",
     "runtime-main.js.map": "/react-revenue-dashboard/static/js/runtime-main.000e4892.js.map",
     "static/js/2.f18a89c1.chunk.js": "/react-revenue-dashboard/static/js/2.f18a89c1.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.000e4892.js",
     "static/js/2.f18a89c1.chunk.js",
     "static/css/main.dd97966d.chunk.css",
-    "static/js/main.e8578e3e.chunk.js"
+    "static/js/main.b8c06346.chunk.js"
   ]
 }

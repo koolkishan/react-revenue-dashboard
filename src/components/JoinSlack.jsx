@@ -21,14 +21,6 @@ function JoinSlack() {
   );
 }
 
-const CardContent = styled.div`
-  margin: 1rem;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-`;
-
 const JoinChannel = styled.div`
   background-color: #162349;
   height: 50%;
@@ -36,6 +28,28 @@ const JoinChannel = styled.div`
   border-radius: 1rem;
   display: flex;
   align-items: center;
+  transition: 0.4s ease-in-out;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 1080px) {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: max-content;
+    width: 80%;
+  }
+`;
+
+const CardContent = styled.div`
+  margin: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (min-width: 320px) and (max-width: 1080px) {
+    flex-direction: column;
+    gap: 1rem;
+  }
 `;
 
 const Slack = styled.div`

@@ -43,6 +43,13 @@ const InfoCard = styled.div`
   color: white;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  transition: 0.4s ease-in-out;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 1080px) {
+    width: 80%;
+  }
 `;
 
 const Card = styled.div`

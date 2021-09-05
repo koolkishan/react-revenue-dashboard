@@ -42,6 +42,15 @@ const RecommendProject = styled.div`
   width: 27.5vw;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  transition: 0.4s ease-in-out;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 1080px) {
+    height: max-content;
+    width: 80%;
+    margin: 2rem 0;
+  }
 `;
 
 const CardContent = styled.div`
@@ -52,6 +61,13 @@ const Detail = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  @media screen and (min-width: 320px) and (max-width: 1080px) {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.2rem;
+    margin-bottom: 1rem;
+  }
 `;
 const InfoContainer = styled.div`
   display: flex;
@@ -89,6 +105,11 @@ const PriceContainer = styled.div`
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   background-color: rgba(146, 166, 255, 0.3);
+  @media screen and (min-width: 320px) and (max-width: 1080px) {
+    flex-direction: column;
+
+    gap: 0.4rem;
+  }
 `;
 const Price = styled.div``;
 
