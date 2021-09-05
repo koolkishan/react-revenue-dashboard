@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-
 import Navbar from "./Navbar";
 import Earnings from "./Earnings";
 import Info from "./Info";

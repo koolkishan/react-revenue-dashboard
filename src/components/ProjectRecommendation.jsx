@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import Badge from "./Badge";
 import AvatarImage from "../assets/avatarImage4.jpg";
+import { cardShadow, hoverEffect } from "../utils";
+
 function ProjectRecommendation() {
   return (
     <RecommendProject>
@@ -40,11 +42,10 @@ const RecommendProject = styled.div`
   padding: 1rem;
   background-color: white;
   width: 27.5vw;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
-    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  box-shadow: ${cardShadow};
   transition: 0.4s ease-in-out;
   &:hover {
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    box-shadow: ${hoverEffect};
   }
   @media screen and (min-width: 320px) and (max-width: 1080px) {
     height: max-content;

@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Badge from "./Badge";
 import AvatarImage from "../assets/avatarImage5.jpg";
 import AvatarImage2 from "../assets/avatarImage6.jpg";
+import { cardShadow, hoverEffect } from "../utils";
 
 function Invoices() {
   return (
@@ -49,11 +50,10 @@ const InvoicesContainer = styled.div`
   margin-top: 1rem;
   background-color: white;
   height: 140%;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
-    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  box-shadow: ${cardShadow};
   transition: 0.4s ease-in-out;
   &:hover {
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    box-shadow: ${hoverEffect};
   }
   @media screen and (min-width: 320px) and (max-width: 1080px) {
     width: 80%;

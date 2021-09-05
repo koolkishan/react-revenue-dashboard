@@ -5,7 +5,7 @@ import { FaWallet } from "react-icons/fa";
 import { AiOutlinePieChart } from "react-icons/ai";
 import Badge from "./Badge";
 import AvatarImage from "../assets/avatarImage.jpeg";
-
+import { darkThemeColor } from "../utils";
 function Sidebar() {
   return (
     <Container>
@@ -44,7 +44,6 @@ function Sidebar() {
 
 const Container = styled.div`
   width: 20%;
-  background-color: red;
   height: 100% !important;
   border-radius: 2rem;
   background-color: #091322;
@@ -79,7 +78,7 @@ const Name = styled.h1`
 `;
 
 const LinksContainer = styled.div`
-  background-color: #162349;
+  background-color: ${darkThemeColor};
   height: 100%;
   width: 100%;
   border-radius: 2rem;

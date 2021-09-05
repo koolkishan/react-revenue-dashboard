@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { IoStatsChart } from "react-icons/io5";
+import { themeColor, hoverEffect } from "../utils";
 
 function Earnings() {
   return (
@@ -20,14 +21,15 @@ function Earnings() {
 const EarningsCard = styled.div`
   height: 100%;
   width: 14rem;
-  background-color: #6100d4;
+  background-color: ${themeColor};
   padding: 1rem;
   border-radius: 1rem;
   color: white;
   transition: 0.4s ease-in-out;
   &:hover {
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    box-shadow: ${hoverEffect};
   }
+
   @media screen and (min-width: 320px) and (max-width: 1080px) {
     width: 80%;
   }
