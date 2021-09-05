@@ -3,15 +3,16 @@ import styled from "styled-components";
 import { RiHomeLine, RiFileCopyLine } from "react-icons/ri";
 import { FaWallet } from "react-icons/fa";
 import { AiOutlinePieChart } from "react-icons/ai";
-
+import Badge from "./Badge";
 import AvatarImage from "../assets/avatarImage.jpeg";
+
 function Sidebar() {
   return (
     <Container>
       <ProfileContainer>
         <Avatar src={AvatarImage} />
         <Name>Kishan Sheth</Name>
-        <Badge>Pro Level</Badge>
+        <Badge content="Pro Level" />
       </ProfileContainer>
       <LinksContainer>
         <Links>
@@ -74,14 +75,6 @@ const Name = styled.h1`
   margin: 0.8rem 0 0.5rem 0;
 `;
 
-const Badge = styled.span`
-  color: white;
-  background-color: #6100d4;
-  padding: 0.3rem 1rem;
-  border-radius: 1rem;
-  font-weight: 500;
-`;
-
 const LinksContainer = styled.div`
   background-color: #162349;
   height: 100%;
@@ -103,6 +96,7 @@ const Link = styled.li`
   display: flex;
   gap: 1rem;
   color: #e4e4e4;
+  cursor: pointer;
   h3 {
     font-weight: 300;
   }
